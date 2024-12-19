@@ -15,9 +15,18 @@
 ---
 
 ## Project Structure
-cctv-backup-agent/ ├── backup/ │ ├── main.py # Script utama untuk pencadangan │ ├── config.json # File konfigurasi │ ├── requirements.txt # Daftar dependensi Python ├── tests/ │ ├── test_main.py # Unit testing ├── .gitignore # File yang diabaikan Git ├── README.md # Dokumentasi proyek
-
-
+```bash
+cctv-backup-agent/
+├── backup/
+│   ├── main.py        # Skrip utama untuk pencadangan
+│   ├── config.json    # File konfigurasi
+│   ├── requirements.txt # Daftar dependensi Python
+├── tests/
+│   ├── test_main.py   # Unit testing
+├── .gitignore         # Daftar file yang diabaikan Git
+├── README.md          # Dokumentasi proyek
+└── LICENSE            # Lisensi proyek
+```
 ---
 
 ## **Instalasi**
