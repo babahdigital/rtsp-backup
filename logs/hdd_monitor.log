@@ -1,0 +1,436 @@
+2024-12-22 16:37:48,152 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 16:38:48,153 - INFO - Disk Usage: 37.44% Free: 16 GiB
+2024-12-22 16:39:24,316 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 16:40:24,316 - INFO - Disk Usage: 37.45% Free: 16 GiB
+2024-12-22 16:41:24,317 - INFO - Disk Usage: 37.45% Free: 16 GiB
+2024-12-22 16:42:24,318 - INFO - Disk Usage: 37.45% Free: 16 GiB
+2024-12-22 16:43:24,318 - INFO - Disk Usage: 37.45% Free: 16 GiB
+2024-12-22 16:44:24,318 - INFO - Disk Usage: 37.46% Free: 16 GiB
+2024-12-22 16:45:24,319 - INFO - Disk Usage: 37.46% Free: 16 GiB
+2024-12-22 16:46:24,319 - INFO - Disk Usage: 37.46% Free: 16 GiB
+2024-12-22 16:47:24,320 - INFO - Disk Usage: 37.46% Free: 16 GiB
+2024-12-22 16:48:24,320 - INFO - Disk Usage: 37.46% Free: 16 GiB
+2024-12-22 16:49:24,321 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:50:24,321 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:51:24,321 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:52:24,322 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:52:25,964 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:52:37,296 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:52:48,671 - INFO - Disk Usage: 37.47% Free: 16 GiB
+2024-12-22 16:53:00,133 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:53:11,594 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:53:22,996 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:53:34,389 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:53:45,599 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:53:57,068 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:54:08,665 - INFO - Disk Usage: 37.48% Free: 16 GiB
+2024-12-22 16:54:20,323 - INFO - Disk Usage: 37.49% Free: 16 GiB
+2024-12-22 16:54:31,721 - INFO - Disk Usage: 37.49% Free: 16 GiB
+2024-12-22 16:54:43,144 - INFO - Disk Usage: 37.49% Free: 16 GiB
+2024-12-22 16:54:54,710 - INFO - Disk Usage: 37.49% Free: 16 GiB
+2024-12-22 16:55:18,997 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 16:55:30,405 - INFO - Disk Usage: 37.49% Free: 16 GiB
+2024-12-22 16:55:41,786 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:55:52,996 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:56:04,432 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:56:16,195 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:56:27,649 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:56:39,172 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:56:50,700 - INFO - Disk Usage: 37.50% Free: 16 GiB
+2024-12-22 16:57:02,442 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:57:13,870 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:57:25,455 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:57:36,908 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:57:48,795 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:58:00,304 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:58:11,699 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:58:23,224 - INFO - Disk Usage: 37.51% Free: 16 GiB
+2024-12-22 16:58:34,945 - INFO - Disk Usage: 37.52% Free: 16 GiB
+2024-12-22 16:58:46,424 - INFO - Disk Usage: 37.52% Free: 16 GiB
+2024-12-22 16:58:57,741 - INFO - Disk Usage: 37.52% Free: 16 GiB
+2024-12-22 16:59:09,324 - INFO - Disk Usage: 37.52% Free: 16 GiB
+2024-12-22 16:59:20,967 - INFO - Disk Usage: 37.52% Free: 16 GiB
+2024-12-22 16:59:32,396 - INFO - Disk Usage: 37.52% Free: 16 GiB
+2024-12-22 17:00:03,163 - INFO - Disk Usage: 37.61% Free: 15 GiB
+2024-12-22 17:01:03,164 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 17:02:03,164 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 17:02:53,377 - INFO - Disk Usage: 37.62% Free: 15 GiB
+2024-12-22 17:03:53,378 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 17:04:53,378 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 17:05:53,379 - INFO - Disk Usage: 37.53% Free: 16 GiB
+2024-12-22 17:06:53,379 - INFO - Disk Usage: 37.54% Free: 16 GiB
+2024-12-22 17:07:53,380 - INFO - Disk Usage: 37.54% Free: 16 GiB
+2024-12-22 17:08:53,380 - INFO - Disk Usage: 37.54% Free: 16 GiB
+2024-12-22 17:09:43,861 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:09:43,862 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:10:43,862 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:11:43,862 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:12:43,863 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:13:43,863 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:14:43,863 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:15:43,864 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:16:43,864 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:17:43,864 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:18:43,865 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:19:43,865 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:20:43,865 - ERROR - Gagal membaca penggunaan disk: [Errno 2] No such file or directory: '/mnt/Data/Backup'
+2024-12-22 17:21:20,797 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:21:20,797 - INFO - Disk Usage: 37.65% Free: 15 GiB
+2024-12-22 17:22:20,797 - INFO - Disk Usage: 37.56% Free: 15 GiB
+2024-12-22 17:23:20,798 - INFO - Disk Usage: 37.65% Free: 15 GiB
+2024-12-22 17:23:32,271 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:23:32,271 - INFO - Disk Usage: 37.65% Free: 15 GiB
+2024-12-22 17:24:32,271 - INFO - Disk Usage: 37.56% Free: 15 GiB
+2024-12-22 17:25:32,271 - INFO - Disk Usage: 37.56% Free: 15 GiB
+2024-12-22 17:26:32,156 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:26:32,156 - INFO - Disk Usage: 37.65% Free: 15 GiB
+2024-12-22 17:27:32,156 - INFO - Disk Usage: 37.56% Free: 15 GiB
+2024-12-22 17:28:32,157 - INFO - Disk Usage: 37.57% Free: 15 GiB
+2024-12-22 17:29:32,157 - INFO - Disk Usage: 37.57% Free: 15 GiB
+2024-12-22 17:30:32,157 - INFO - Disk Usage: 37.57% Free: 15 GiB
+2024-12-22 17:31:32,158 - INFO - Disk Usage: 37.57% Free: 15 GiB
+2024-12-22 17:32:32,158 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 17:33:32,158 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 17:33:45,628 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:33:45,628 - INFO - Disk Usage: 37.67% Free: 15 GiB
+2024-12-22 17:34:45,628 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 17:35:45,628 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 17:36:45,629 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 17:37:45,629 - INFO - Disk Usage: 37.58% Free: 15 GiB
+2024-12-22 17:38:07,166 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:38:07,166 - INFO - Disk Usage: 37.67% Free: 15 GiB
+2024-12-22 17:39:07,166 - INFO - Disk Usage: 37.59% Free: 15 GiB
+2024-12-22 17:40:07,167 - INFO - Disk Usage: 37.59% Free: 15 GiB
+2024-12-22 17:41:07,167 - INFO - Disk Usage: 37.59% Free: 15 GiB
+2024-12-22 17:42:07,168 - INFO - Disk Usage: 37.67% Free: 15 GiB
+2024-12-22 17:43:07,168 - INFO - Disk Usage: 37.67% Free: 15 GiB
+2024-12-22 17:44:07,169 - INFO - Disk Usage: 37.67% Free: 15 GiB
+2024-12-22 17:45:07,169 - INFO - Disk Usage: 37.67% Free: 15 GiB
+2024-12-22 17:46:08,467 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 17:46:08,467 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 17:47:08,468 - INFO - Disk Usage: 37.60% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.99 GiB
+2024-12-22 17:48:08,468 - INFO - Disk Usage: 37.60% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:49:08,469 - INFO - Disk Usage: 37.60% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:50:08,469 - INFO - Disk Usage: 37.60% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:51:08,470 - INFO - Disk Usage: 37.60% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:52:08,470 - INFO - Disk Usage: 37.60% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:53:08,471 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:54:08,471 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:55:08,472 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:56:08,472 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:57:08,472 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:58:08,473 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.50 GiB | Free: 15.98 GiB
+2024-12-22 17:59:08,473 - INFO - Disk Usage: 37.61% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:00:08,474 - INFO - Disk Usage: 37.62% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:01:08,475 - INFO - Disk Usage: 37.62% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:02:08,476 - INFO - Disk Usage: 37.62% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:03:08,476 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:04:08,476 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:05:08,477 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:06:08,477 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:07:08,477 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:08:08,478 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.98 GiB
+2024-12-22 18:09:08,478 - INFO - Disk Usage: 37.63% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:10:08,478 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:11:08,479 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:12:08,479 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:13:08,480 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:14:08,480 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:15:08,481 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:16:08,481 - INFO - Disk Usage: 37.64% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:17:08,481 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:18:08,482 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:19:08,482 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.51 GiB | Free: 15.97 GiB
+2024-12-22 18:20:08,482 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:21:08,483 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:22:08,483 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:23:08,483 - INFO - Disk Usage: 37.65% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:24:08,484 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:25:08,484 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:26:08,485 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:27:08,485 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:28:08,485 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:29:08,486 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:30:08,486 - INFO - Disk Usage: 37.66% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:31:08,486 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:32:08,487 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:33:08,487 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:34:08,487 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.97 GiB
+2024-12-22 18:35:08,488 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:36:08,488 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:37:08,488 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:38:08,489 - INFO - Disk Usage: 37.67% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:39:08,489 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:40:08,490 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:41:08,490 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:42:08,491 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:43:08,491 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:44:08,492 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:45:08,492 - INFO - Disk Usage: 37.68% | Total: 27.93 GiB | Used: 10.52 GiB | Free: 15.96 GiB
+2024-12-22 18:46:08,492 - INFO - Disk Usage: 37.69% | Total: 27.93 GiB | Used: 10.53 GiB | Free: 15.96 GiB
+2024-12-22 18:47:08,493 - INFO - Disk Usage: 37.69% | Total: 27.93 GiB | Used: 10.53 GiB | Free: 15.96 GiB
+2024-12-22 18:48:08,493 - INFO - Disk Usage: 37.69% | Total: 27.93 GiB | Used: 10.53 GiB | Free: 15.96 GiB
+2024-12-22 18:49:08,494 - INFO - Disk Usage: 37.69% | Total: 27.93 GiB | Used: 10.53 GiB | Free: 15.96 GiB
+2024-12-22 18:50:08,494 - INFO - Disk Usage: 37.69% | Total: 27.93 GiB | Used: 10.53 GiB | Free: 15.96 GiB
+2024-12-23 02:51:49,427 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-23 02:51:49,428 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:52:49,547 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:53:49,548 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:54:11,699 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 18:54:11,700 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:54:49,549 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:55:11,702 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:55:49,550 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:56:49,551 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:57:49,552 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:58:49,553 - INFO - Disk Usage: 0.00% | Total: 20480.00 GiB | Used: 0.00 GiB | Free: 20480.00 GiB
+2024-12-22 18:59:41,726 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 18:59:41,726 - INFO - Disk Usage: 0.00% | Total: 20.00 TB | Used: 3.00 MB | Free: 20.00 TB
+2024-12-22 19:00:41,727 - INFO - Disk Usage: 0.00% | Total: 20.00 TB | Used: 4.00 MB | Free: 20.00 TB
+2024-12-22 19:01:12,643 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:01:12,644 - INFO - Disk Usage: 0.00% | Total: 20.00 TB | Used: 4.00 MB | Free: 20.00 TB
+2024-12-22 19:01:41,728 - INFO - Disk Usage: 0.00% | Total: 20.00 TB | Used: 4.00 MB | Free: 20.00 TB
+2024-12-22 19:02:41,729 - INFO - Disk Usage: 0.00% | Total: 20.00 TB | Used: 5.00 MB | Free: 20.00 TB
+2024-12-22 19:03:41,731 - INFO - Disk Usage: 0.00% | Total: 20.00 TB | Used: 5.00 MB | Free: 20.00 TB
+2024-12-22 19:04:08,310 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:04:08,311 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 6.00 MiB | Free: 20.00 TiB
+2024-12-22 19:04:18,119 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:04:18,120 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 6.00 MiB | Free: 20.00 TiB
+2024-12-22 19:04:27,353 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:05:08,312 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 6.00 MiB | Free: 20.00 TiB
+2024-12-22 19:06:01,132 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:06:01,133 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 6.00 MiB | Free: 20.00 TiB
+2024-12-22 19:06:08,314 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 6.00 MiB | Free: 20.00 TiB
+2024-12-22 19:06:41,292 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:07:08,315 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 7.00 MiB | Free: 20.00 TiB
+2024-12-22 19:08:08,316 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 7.00 MiB | Free: 20.00 TiB
+2024-12-22 19:09:08,318 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 8.00 MiB | Free: 20.00 TiB
+2024-12-22 19:10:08,319 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 8.00 MiB | Free: 20.00 TiB
+2024-12-22 19:11:08,322 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 9.00 MiB | Free: 20.00 TiB
+2024-12-22 19:12:01,830 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:12:01,831 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 9.00 MiB | Free: 20.00 TiB
+2024-12-22 19:13:01,831 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:13:01,832 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 9.00 MiB | Free: 20.00 TiB
+2024-12-22 19:14:01,832 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:14:01,833 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 10.00 MiB | Free: 20.00 TiB
+2024-12-22 19:15:01,833 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:15:01,834 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 10.00 MiB | Free: 20.00 TiB
+2024-12-22 19:16:01,835 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:16:01,835 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 11.00 MiB | Free: 20.00 TiB
+2024-12-22 19:17:01,836 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:17:01,836 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 11.00 MiB | Free: 20.00 TiB
+2024-12-22 19:18:01,837 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:18:01,838 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 11.00 MiB | Free: 20.00 TiB
+2024-12-22 19:19:01,838 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:19:01,839 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 12.00 MiB | Free: 20.00 TiB
+2024-12-22 19:20:01,839 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:20:01,840 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 12.00 MiB | Free: 20.00 TiB
+2024-12-22 19:21:01,840 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:21:01,841 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 13.00 MiB | Free: 20.00 TiB
+2024-12-22 19:22:01,841 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:22:01,842 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 13.00 MiB | Free: 20.00 TiB
+2024-12-22 19:23:01,842 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:23:01,843 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 13.00 MiB | Free: 20.00 TiB
+2024-12-22 19:24:01,843 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:24:01,844 - INFO - Disk Usage: 0.00% | Total: 20.00 TiB | Used: 14.00 MiB | Free: 20.00 TiB
+2024-12-22 19:25:01,844 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:25:01,845 - INFO - Disk Usage: 1.37% | Total: 1.00 GiB | Used: 14.00 MiB | Free: 1010.00 MiB
+2024-12-22 19:25:45,400 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:25:45,401 - INFO - Disk Usage: 1.46% | Total: 1.00 GiB | Used: 15.00 MiB | Free: 1009.00 MiB
+2024-12-22 19:26:01,846 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:26:01,846 - INFO - Disk Usage: 1.46% | Total: 1.00 GiB | Used: 15.00 MiB | Free: 1009.00 MiB
+2024-12-22 19:26:38,364 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:27:01,847 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:27:01,848 - INFO - Disk Usage: 1.46% | Total: 1.00 GiB | Used: 15.00 MiB | Free: 1009.00 MiB
+2024-12-22 19:28:01,848 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:28:01,849 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:28:02,392 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:28:02,393 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:28:03,803 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:28:06,362 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:28:06,363 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:28:08,637 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:28:20,419 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:28:20,420 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:28:38,751 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:28:40,689 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:28:40,690 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:29:01,849 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:29:01,850 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:29:40,690 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:29:40,691 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:30:01,850 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:30:01,851 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 19:30:09,724 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:31:01,851 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:31:01,852 - INFO - Disk Usage: 1.66% | Total: 1.00 GiB | Used: 17.00 MiB | Free: 1007.00 MiB
+2024-12-22 19:31:41,683 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:31:41,684 - INFO - Disk Usage: 1.66% | Total: 1.00 GiB | Used: 17.00 MiB | Free: 1007.00 MiB
+2024-12-22 19:31:56,692 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:31:56,693 - INFO - Disk Usage: 1.76% | Total: 1.00 GiB | Used: 18.00 MiB | Free: 1006.00 MiB
+2024-12-22 19:32:01,564 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:32:41,684 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:32:41,685 - INFO - Disk Usage: 1.76% | Total: 1.00 GiB | Used: 18.00 MiB | Free: 1006.00 MiB
+2024-12-22 19:32:53,156 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:32:53,157 - INFO - Disk Usage: 1.76% | Total: 1.00 GiB | Used: 18.00 MiB | Free: 1006.00 MiB
+2024-12-22 19:33:01,854 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:33:04,008 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:33:04,009 - INFO - Disk Usage: 1.76% | Total: 1.00 GiB | Used: 18.00 MiB | Free: 1006.00 MiB
+2024-12-22 19:33:41,686 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:33:41,687 - INFO - Disk Usage: 1.76% | Total: 1.00 GiB | Used: 18.00 MiB | Free: 1006.00 MiB
+2024-12-22 19:34:01,844 - INFO - HDD Monitoring dihentikan oleh pengguna.
+2024-12-22 19:34:41,688 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:34:41,689 - INFO - Disk Usage: 90.00% | Total: 20.00 MiB | Used: 18.00 MiB | Free: 2.00 MiB
+2024-12-22 19:34:41,690 - WARNING - Disk usage 90.00% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:34:41,836 - INFO - Menghapus file: /Backup/test-file-final
+2024-12-22 19:34:41,969 - INFO - Menghapus file: /Backup/23-12-2024/Channel 1/02-51-49.mkv
+2024-12-22 19:34:42,103 - INFO - Menghapus file: /Backup/test-file-after-reboot
+2024-12-22 19:34:42,248 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-52-49.mkv
+2024-12-22 19:34:42,379 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-53-36.mkv
+2024-12-22 19:34:42,503 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-53-49.mkv
+2024-12-22 19:34:42,640 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-54-49.mkv
+2024-12-22 19:34:42,772 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-55-49.mkv
+2024-12-22 19:34:42,939 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-56-49.mkv
+2024-12-22 19:34:43,072 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-57-50.mkv
+2024-12-22 19:34:43,214 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-58-50.mkv
+2024-12-22 19:34:43,356 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/18-59-41.mkv
+2024-12-22 19:34:43,531 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-00-41.mkv
+2024-12-22 19:34:43,664 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-01-41.mkv
+2024-12-22 19:34:43,805 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-02-41.mkv
+2024-12-22 19:34:43,931 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-03-42.mkv
+2024-12-22 19:34:44,056 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-04-08.mkv
+2024-12-22 19:34:44,180 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-05-08.mkv
+2024-12-22 19:34:44,531 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-06-08.mkv
+2024-12-22 19:34:44,641 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-07-08.mkv
+2024-12-22 19:34:44,764 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-08-08.mkv
+2024-12-22 19:34:44,880 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-09-08.mkv
+2024-12-22 19:34:45,015 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-10-08.mkv
+2024-12-22 19:34:45,131 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-11-08.mkv
+2024-12-22 19:34:45,265 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-12-01.mkv
+2024-12-22 19:34:45,398 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-13-01.mkv
+2024-12-22 19:34:45,399 - INFO - Proses rotasi selesai. Disk usage sekarang: 40.00%
+2024-12-22 19:35:45,399 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:35:45,400 - INFO - Disk Usage: 45.00% | Total: 20.00 MiB | Used: 9.00 MiB | Free: 11.00 MiB
+2024-12-22 19:36:45,400 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:36:45,401 - INFO - Disk Usage: 45.00% | Total: 20.00 MiB | Used: 9.00 MiB | Free: 11.00 MiB
+2024-12-22 19:37:45,401 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:37:45,402 - INFO - Disk Usage: 50.00% | Total: 20.00 MiB | Used: 10.00 MiB | Free: 10.00 MiB
+2024-12-22 19:37:45,403 - WARNING - Disk usage 50.00% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:37:45,531 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-14-01.mkv
+2024-12-22 19:37:45,665 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-15-02.mkv
+2024-12-22 19:37:45,773 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-16-02.mkv
+2024-12-22 19:37:45,773 - INFO - Proses rotasi selesai. Disk usage sekarang: 40.00%
+2024-12-22 19:38:31,525 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:38:31,525 - INFO - Disk Usage: 45.00% | Total: 20.00 MiB | Used: 9.00 MiB | Free: 11.00 MiB
+2024-12-22 19:39:31,526 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:39:31,527 - INFO - Disk Usage: 45.00% | Total: 20.00 MiB | Used: 9.00 MiB | Free: 11.00 MiB
+2024-12-22 19:40:31,527 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:40:31,528 - INFO - Disk Usage: 66.67% | Total: 15.00 MiB | Used: 10.00 MiB | Free: 5.00 MiB
+2024-12-22 19:40:31,528 - WARNING - Disk usage 66.67% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:40:31,645 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-17-02.mkv
+2024-12-22 19:40:31,778 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-18-02.mkv
+2024-12-22 19:40:31,929 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-19-02.mkv
+2024-12-22 19:40:32,112 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-20-02.mkv
+2024-12-22 19:40:32,270 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-21-02.mkv
+2024-12-22 19:40:32,437 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-22-02.mkv
+2024-12-22 19:40:32,562 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-23-02.mkv
+2024-12-22 19:40:32,687 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-24-02.mkv
+2024-12-22 19:40:32,687 - INFO - Rotasi selesai: Disk usage awal 66.67%, akhir 40.00%
+2024-12-22 19:41:32,688 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:41:32,689 - INFO - Disk Usage: 46.67% | Total: 15.00 MiB | Used: 7.00 MiB | Free: 8.00 MiB
+2024-12-22 19:42:08,430 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:42:08,431 - INFO - Disk Usage: 46.67% | Total: 15.00 MiB | Used: 7.00 MiB | Free: 8.00 MiB
+2024-12-22 19:43:08,432 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:43:08,433 - INFO - Disk Usage: 88.89% | Total: 9.00 MiB | Used: 8.00 MiB | Free: 1.00 MiB
+2024-12-22 19:43:08,433 - WARNING - Disk usage 88.89% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:43:08,557 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-25-02.mkv
+2024-12-22 19:43:08,691 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-26-02.mkv
+2024-12-22 19:43:08,832 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-27-02.mkv
+2024-12-22 19:43:08,974 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-28-02.mkv
+2024-12-22 19:43:09,138 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-29-02.mkv
+2024-12-22 19:43:09,278 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-30-02.mkv
+2024-12-22 19:43:09,470 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-31-03.mkv
+2024-12-22 19:43:09,602 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-31-41.mkv
+2024-12-22 19:43:09,603 - INFO - Proses rotasi selesai. Disk usage sekarang: 44.44%
+2024-12-22 19:44:09,603 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:44:09,604 - INFO - Disk Usage: 55.56% | Total: 9.00 MiB | Used: 5.00 MiB | Free: 4.00 MiB
+2024-12-22 19:44:09,604 - WARNING - Disk usage 55.56% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:44:09,745 - INFO - Menghapus file: /Backup/dummy_file
+2024-12-22 19:44:09,887 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-32-41.mkv
+2024-12-22 19:44:09,888 - INFO - Proses rotasi selesai. Disk usage sekarang: 44.44%
+2024-12-22 19:45:09,888 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:45:09,889 - INFO - Disk Usage: 55.56% | Total: 9.00 MiB | Used: 5.00 MiB | Free: 4.00 MiB
+2024-12-22 19:45:09,889 - WARNING - Disk usage 55.56% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:45:10,003 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-33-41.mkv
+2024-12-22 19:45:10,004 - INFO - Proses rotasi selesai. Disk usage sekarang: 44.44%
+2024-12-22 19:46:10,004 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:46:10,005 - INFO - Disk Usage: 55.56% | Total: 9.00 MiB | Used: 5.00 MiB | Free: 4.00 MiB
+2024-12-22 19:46:10,006 - WARNING - Disk usage 55.56% melewati threshold 45%. Mulai proses rotasi.
+2024-12-22 19:46:10,120 - INFO - Menghapus file: /Backup/22-12-2024/Channel 1/19-34-41.mkv
+2024-12-22 19:46:10,121 - INFO - Proses rotasi selesai. Disk usage sekarang: 44.44%
+2024-12-22 19:47:10,121 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:47:10,121 - INFO - Disk Usage: 0.49% | Total: 1.00 GiB | Used: 5.00 MiB | Free: 1019.00 MiB
+2024-12-22 19:48:10,122 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:48:10,123 - INFO - Disk Usage: 0.49% | Total: 1.00 GiB | Used: 5.00 MiB | Free: 1019.00 MiB
+2024-12-22 19:49:10,123 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:49:10,124 - INFO - Disk Usage: 0.59% | Total: 1.00 GiB | Used: 6.00 MiB | Free: 1018.00 MiB
+2024-12-22 19:50:10,124 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:50:10,125 - INFO - Disk Usage: 0.59% | Total: 1.00 GiB | Used: 6.00 MiB | Free: 1018.00 MiB
+2024-12-22 19:51:10,125 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:51:10,126 - INFO - Disk Usage: 0.59% | Total: 1.00 GiB | Used: 6.00 MiB | Free: 1018.00 MiB
+2024-12-22 19:52:10,126 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:52:10,127 - INFO - Disk Usage: 0.68% | Total: 1.00 GiB | Used: 7.00 MiB | Free: 1017.00 MiB
+2024-12-22 19:53:10,127 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:53:10,128 - INFO - Disk Usage: 0.68% | Total: 1.00 GiB | Used: 7.00 MiB | Free: 1017.00 MiB
+2024-12-22 19:54:10,128 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:54:10,129 - INFO - Disk Usage: 0.78% | Total: 1.00 GiB | Used: 8.00 MiB | Free: 1016.00 MiB
+2024-12-22 19:55:10,129 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:55:10,130 - INFO - Disk Usage: 0.78% | Total: 1.00 GiB | Used: 8.00 MiB | Free: 1016.00 MiB
+2024-12-22 19:56:10,131 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:56:10,131 - INFO - Disk Usage: 0.78% | Total: 1.00 GiB | Used: 8.00 MiB | Free: 1016.00 MiB
+2024-12-22 19:57:10,132 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:57:10,133 - INFO - Disk Usage: 0.88% | Total: 1.00 GiB | Used: 9.00 MiB | Free: 1015.00 MiB
+2024-12-22 19:58:10,133 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:58:10,134 - INFO - Disk Usage: 0.88% | Total: 1.00 GiB | Used: 9.00 MiB | Free: 1015.00 MiB
+2024-12-22 19:59:10,134 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 19:59:10,135 - INFO - Disk Usage: 0.98% | Total: 1.00 GiB | Used: 10.00 MiB | Free: 1014.00 MiB
+2024-12-22 20:00:10,135 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:00:10,136 - INFO - Disk Usage: 0.98% | Total: 1.00 GiB | Used: 10.00 MiB | Free: 1014.00 MiB
+2024-12-22 20:01:10,136 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:01:10,137 - INFO - Disk Usage: 0.98% | Total: 1.00 GiB | Used: 10.00 MiB | Free: 1014.00 MiB
+2024-12-22 20:02:10,137 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:02:10,138 - INFO - Disk Usage: 1.07% | Total: 1.00 GiB | Used: 11.00 MiB | Free: 1013.00 MiB
+2024-12-22 20:03:10,138 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:03:10,139 - INFO - Disk Usage: 1.07% | Total: 1.00 GiB | Used: 11.00 MiB | Free: 1013.00 MiB
+2024-12-22 20:04:10,139 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:04:10,139 - INFO - Disk Usage: 1.17% | Total: 1.00 GiB | Used: 12.00 MiB | Free: 1012.00 MiB
+2024-12-22 20:05:10,140 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:05:10,140 - INFO - Disk Usage: 1.17% | Total: 1.00 GiB | Used: 12.00 MiB | Free: 1012.00 MiB
+2024-12-22 20:06:10,140 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:06:10,141 - INFO - Disk Usage: 1.27% | Total: 1.00 GiB | Used: 13.00 MiB | Free: 1011.00 MiB
+2024-12-22 20:07:10,142 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:07:10,142 - INFO - Disk Usage: 1.27% | Total: 1.00 GiB | Used: 13.00 MiB | Free: 1011.00 MiB
+2024-12-22 20:08:10,143 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:08:10,144 - INFO - Disk Usage: 1.27% | Total: 1.00 GiB | Used: 13.00 MiB | Free: 1011.00 MiB
+2024-12-22 20:09:10,144 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:09:10,145 - INFO - Disk Usage: 1.37% | Total: 1.00 GiB | Used: 14.00 MiB | Free: 1010.00 MiB
+2024-12-22 20:17:40,010 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:17:40,011 - INFO - Disk Usage: 1.37% | Total: 1.00 GiB | Used: 14.00 MiB | Free: 1010.00 MiB
+2024-12-22 20:18:40,011 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:18:40,012 - INFO - Disk Usage: 1.37% | Total: 1.00 GiB | Used: 14.00 MiB | Free: 1010.00 MiB
+2024-12-22 20:19:40,012 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:19:40,013 - INFO - Disk Usage: 1.46% | Total: 1.00 GiB | Used: 15.00 MiB | Free: 1009.00 MiB
+2024-12-22 20:20:40,014 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:20:40,015 - INFO - Disk Usage: 1.46% | Total: 1.00 GiB | Used: 15.00 MiB | Free: 1009.00 MiB
+2024-12-22 20:21:40,015 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:21:40,016 - INFO - Disk Usage: 1.46% | Total: 1.00 GiB | Used: 15.00 MiB | Free: 1009.00 MiB
+2024-12-22 20:22:40,016 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:22:40,017 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 20:23:40,018 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:23:40,019 - INFO - Disk Usage: 1.56% | Total: 1.00 GiB | Used: 16.00 MiB | Free: 1008.00 MiB
+2024-12-22 20:24:40,020 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:24:40,021 - INFO - Disk Usage: 1.66% | Total: 1.00 GiB | Used: 17.00 MiB | Free: 1007.00 MiB
+2024-12-22 20:25:40,021 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:25:40,022 - INFO - Disk Usage: 1.66% | Total: 1.00 GiB | Used: 17.00 MiB | Free: 1007.00 MiB
+2024-12-22 20:26:40,022 - INFO - Memulai HDD monitoring untuk NAS...
+2024-12-22 20:26:40,023 - INFO - Disk Usage: 1.66% | Total: 1.00 GiB | Used: 17.00 MiB | Free: 1007.00 MiB

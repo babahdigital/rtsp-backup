@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  rtsp-backup:
+    build: .
+    image: rtsp-backup_rtsp-backup
+    container_name: rtsp-backup
+    restart: always
+    volumes:
+      - /mnt/Data/Backup:/mnt/Data/Backup  # Mount TrueNAS untuk backup dan monitoring
+      - ./logs:/app/logs                   # Volume untuk menyimpan file log
+      - ./scripts:/app/scripts             # Mount script lokal ke dalam container
+    env_file:
+      - .env                               # Load variabel lingkungan dari file .env
+    ports:
+      - "127.0.0.1:8080:8080"              # Membatasi akses hanya dari localhost
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: ["bash", "/app/entrypoint.sh"]
+
+#version: '3.8'
+#services:
+#  rtsp-backup:
+#    build: .
+#    image: rtsp-backup_rtsp-backup
+#    container_name: rtsp-backup
+#    restart: "no"  # Tidak restart otomatis
+#    volumes:
+#      - /mnt/Data/Backup:/data  # Mount direktori TrueNAS ke dalam container
+#      - ./logs:/app/logs        # Volume untuk menyimpan file log
+#      - ./scripts:/app/scripts  # Mount script lokal ke dalam container
+#    env_file:
+#      - .env                    # Load variabel lingkungan dari file .env
+#    command: ["bash", "-c", "sleep infinity"]

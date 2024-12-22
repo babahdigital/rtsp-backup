@@ -1,0 +1,157 @@
+#!/usr/bin/env python3
+import os
+import shutil
+from datetime import datetime
+import subprocess
+import logging
+from logging.handlers import TimedRotatingFileHandler
+from pytz import timezone
+from dotenv import load_dotenv
+import argparse
+
+# ------------------------------------------------------------------------------
+# 1. Load konfigurasi environment (.env)
+# ------------------------------------------------------------------------------
+load_dotenv(".env")
+
+TIMEZONE        = os.getenv("TIMEZONE", "Asia/Makassar")
+BACKUP_DIR      = os.getenv("BACKUP_DIR", "/data")
+RTSP_USERNAME   = os.getenv("RTSP_USERNAME", "")
+RTSP_PASSWORD   = os.getenv("RTSP_PASSWORD", "")
+RTSP_IP         = os.getenv("RTSP_IP", "")
+MAX_CAPACITY_PERCENT = int(os.getenv("MAX_CAPACITY_PERCENT", "90"))
+
+# Durasi rekaman ffmpeg (detik), default 300 = 5 menit
+VIDEO_DURATION  = int(os.getenv("VIDEO_DURATION", "300"))
+MIN_DURATION    = 15
+if VIDEO_DURATION < MIN_DURATION:
+    VIDEO_DURATION = MIN_DURATION
+
+# ------------------------------------------------------------------------------
+# 2. Parsing argumen
+# ------------------------------------------------------------------------------
+parser = argparse.ArgumentParser(description="RTSP Backup Manager")
+parser.add_argument("--channel", type=int, required=True, help="Nomor channel RTSP")
+parser.add_argument("--url", type=str, help="RTSP URL untuk channel (opsional)")
+args = parser.parse_args()
+
+CHANNEL = args.channel
+# Jika user tidak beri --url, gunakan RTSP default format
+# Ganti '/streaming/channels/{CHANNEL}' dengan format yang sesuai NVR/DVR Anda
+RTSP_URL = args.url or f"rtsp://{RTSP_USERNAME}:{RTSP_PASSWORD}@{RTSP_IP}/streaming/channels/{CHANNEL}"
+
+# ------------------------------------------------------------------------------
+# 3. Konfigurasi Timezone dan Logging
+# ------------------------------------------------------------------------------
+ZONE_SUFFIX = "Wita" if "Makassar" in TIMEZONE else "Wib"
+
+# Pastikan folder backup ada
+os.makedirs(BACKUP_DIR, exist_ok=True)
+
+LOG_FILE = os.path.join(BACKUP_DIR, "backup.log")
+
+logger = logging.getLogger("BackupManager")
+logger.setLevel(logging.INFO)
+
+# Handler log agar otomatis rotate harian, simpan 7 file lama
+handler = TimedRotatingFileHandler(LOG_FILE, when="midnight", backupCount=7)
+formatter = logging.Formatter("%(message)s")
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+# Handler console (opsional) untuk menampilkan log juga ke stdout
+console = logging.StreamHandler()
+console.setFormatter(formatter)
+logger.addHandler(console)
+
+# ------------------------------------------------------------------------------
+# 4. Fungsi bantu (logging, disk usage, cleanup)
+# ------------------------------------------------------------------------------
+def get_log_time():
+    """Mengambil waktu log dengan format yang disesuaikan."""
+    now = datetime.now(timezone(TIMEZONE))
+    return now.strftime(f"%d-%m-%Y %H:%M:%S {ZONE_SUFFIX}")
+
+def log_message(level, message):
+    """Log pesan ke file log dan console."""
+    full_message = f"{get_log_time()} - {level} - {message}"
+    if level == "ERROR":
+        logger.error(full_message)
+    else:
+        logger.info(full_message)
+
+def get_disk_usage():
+    """Mengembalikan persentase penggunaan disk di BACKUP_DIR."""
+    usage = shutil.disk_usage(BACKUP_DIR)
+    return (usage.used / usage.total) * 100
+
+def cleanup_oldest_folder():
+    """
+    Hapus folder backup tertua jika kapasitas disk melebihi batas.
+    Sort berdasarkan 'mtime' (waktu modifikasi).
+    """
+    folders = [
+        os.path.join(BACKUP_DIR, f)
+        for f in os.listdir(BACKUP_DIR)
+        if os.path.isdir(os.path.join(BACKUP_DIR, f))
+    ]
+    folders.sort(key=os.path.getmtime)
+
+    if folders:
+        oldest_folder = folders[0]
+        shutil.rmtree(oldest_folder)
+        log_message("INFO",
+                    f"Folder '{oldest_folder}' dihapus karena kapasitas penuh. "
+                    f"Folder tersisa: {len(folders)-1} folder.")
+
+def create_backup_folder(channel):
+    """
+    Membuat folder backup baru berdasarkan tanggal (dd-mm-YYYY) dan channel.
+    Contoh: /data/21-12-2024/Channel 1/
+    """
+    now = datetime.now(timezone(TIMEZONE))
+    folder_date = now.strftime('%d-%m-%Y')
+    channel_folder = f"Channel {channel}"
+    full_path = os.path.join(BACKUP_DIR, folder_date, channel_folder)
+    os.makedirs(full_path, exist_ok=True)
+    return full_path
+
+# ------------------------------------------------------------------------------
+# 5. Fungsi utama backup
+# ------------------------------------------------------------------------------
+def backup_channel():
+    """Melakukan perekaman RTSP untuk channel tertentu."""
+    backup_folder = create_backup_folder(CHANNEL)
+    timestamp = datetime.now(timezone(TIMEZONE)).strftime('%H-%M-%S')
+    output_file = os.path.join(backup_folder, f"{timestamp}.mp4")
+
+    command = [
+        "ffmpeg",
+        "-i", RTSP_URL,
+        "-an",                  # non-aktifkan audio
+        "-c:v", "copy",         # copy codec video (stream copy)
+        "-t", str(VIDEO_DURATION),  # durasi perekaman dalam detik
+        output_file
+    ]
+
+    try:
+        log_message("INFO", f"Memulai backup channel={CHANNEL}, durasi={VIDEO_DURATION}s: {output_file}")
+        subprocess.run(command, check=True)
+        log_message("INFO", f"Backup berhasil: {output_file}")
+    except subprocess.CalledProcessError as e:
+        log_message("ERROR", f"Backup gagal untuk channel {CHANNEL}. Exit status {e.returncode}")
+
+# ------------------------------------------------------------------------------
+# 6. Main Execution
+# ------------------------------------------------------------------------------
+if __name__ == "__main__":
+    try:
+        # Jika disk usage sudah melebihi batas, hapus folder tertua sampai aman
+        while get_disk_usage() > MAX_CAPACITY_PERCENT:
+            cleanup_oldest_folder()
+
+        # Mulai backup satu kali (durasi=VIDEO_DURATION)
+        backup_channel()
+
+    except Exception as e:
+        log_message("ERROR", f"Error tidak terduga: {e}")

@@ -1,0 +1,111 @@
+import os
+import shutil
+from datetime import datetime
+import subprocess
+import logging
+from pytz import timezone
+from dotenv import load_dotenv
+import argparse
+
+# Load konfigurasi dari .env
+load_dotenv(".env")
+
+# Konfigurasi default
+TIMEZONE = os.getenv("TIMEZONE", "Asia/Makassar")
+BACKUP_PATH = os.getenv("BACKUP_PATH", "/mnt/Backup/")
+RTSP_USERNAME = os.getenv("RTSP_USERNAME", "")
+RTSP_PASSWORD = os.getenv("RTSP_PASSWORD", "")
+RTSP_IP = os.getenv("RTSP_IP", "")
+MAX_CAPACITY_PERCENT = 90  # Batas penggunaan disk sebelum rotasi dilakukan
+
+# Argument parser untuk channel dan URL dinamis
+parser = argparse.ArgumentParser(description="RTSP Backup Manager")
+parser.add_argument("--channel", type=int, required=True, help="Nomor channel RTSP")
+parser.add_argument("--url", type=str, help="RTSP URL untuk channel (opsional)")
+args = parser.parse_args()
+
+CHANNEL = args.channel
+RTSP_URL = args.url or f"rtsp://{RTSP_USERNAME}:{RTSP_PASSWORD}@{RTSP_IP}/streaming/channels/{CHANNEL}"
+
+# Tentukan zona waktu untuk suffix
+ZONE_SUFFIX = "Wita" if "Makassar" in TIMEZONE else "Wib"
+
+# Konfigurasi logging
+LOG_FILE = os.path.join(BACKUP_PATH, "backup.log")  # Pastikan BACKUP_PATH mengarah ke "/data"
+os.makedirs(BACKUP_PATH, exist_ok=True)  # Pastikan direktori ada
+if not os.path.exists(LOG_FILE):
+    with open(LOG_FILE, 'w'):  # Buat file log jika belum ada
+        pass
+
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format="%(message)s",
+)
+
+def get_log_time():
+    """Mengambil waktu log dengan format yang disesuaikan."""
+    now = datetime.now(timezone(TIMEZONE))
+    return now.strftime(f"%d-%m-%Y %H:%M:%S {ZONE_SUFFIX}")
+
+def log_message(level, message):
+    """Log pesan ke file log."""
+    full_message = f"{get_log_time()} - {level} - {message}"
+    if level == "ERROR":
+        logging.error(full_message)
+    else:
+        logging.info(full_message)
+    print(full_message)
+
+def get_disk_usage():
+    """Periksa penggunaan disk."""
+    usage = shutil.disk_usage(BACKUP_PATH)
+    return (usage.used / usage.total) * 100
+
+def cleanup_oldest_folder():
+    """Hapus folder backup tertua jika kapasitas disk penuh."""
+    folders = [os.path.join(BACKUP_PATH, f) for f in os.listdir(BACKUP_PATH) if os.path.isdir(os.path.join(BACKUP_PATH, f))]
+    folders.sort(key=os.path.getmtime)
+
+    if folders:
+        oldest_folder = folders[0]
+        shutil.rmtree(oldest_folder)
+        log_message("INFO", f"Folder '{oldest_folder}' dihapus karena kapasitas penuh.")
+
+def create_backup_folder(channel):
+    """Buat folder backup baru berdasarkan tanggal dan channel."""
+    now = datetime.now(timezone(TIMEZONE))
+    folder_date = now.strftime('%d-%m-%Y')
+    channel_folder = f"Channel {channel}"
+    full_path = os.path.join(BACKUP_PATH, folder_date, channel_folder)
+    os.makedirs(full_path, exist_ok=True)
+    return full_path
+
+def backup_channel():
+    """Backup stream RTSP untuk channel yang ditentukan."""
+    backup_folder = create_backup_folder(CHANNEL)
+    timestamp = datetime.now(timezone(TIMEZONE)).strftime('%H-%M-%S')
+    output_file = os.path.join(backup_folder, f"{timestamp}.mp4")
+
+    command = [
+        "ffmpeg",
+        "-i", RTSP_URL,
+        "-an", "-c:v", "copy", "-t", "300", output_file  # 300 detik = 5 menit
+    ]
+
+    try:
+        subprocess.run(command, check=True)
+        log_message("INFO", f"Backup berhasil: {output_file}")
+    except subprocess.CalledProcessError as e:
+        log_message("ERROR", f"Backup gagal untuk channel {CHANNEL}. Exit status {e.returncode}")
+
+if __name__ == "__main__":
+    try:
+        # Periksa kapasitas disk dan lakukan rotasi jika diperlukan
+        while get_disk_usage() > MAX_CAPACITY_PERCENT:
+            cleanup_oldest_folder()
+
+        # Jalankan backup untuk channel yang ditentukan
+        backup_channel()
+    except Exception as e:
+        log_message("ERROR", f"Error tidak terduga: {e}")
