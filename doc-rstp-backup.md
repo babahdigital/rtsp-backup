@@ -13,17 +13,20 @@ Struktur Direktori
 ------------------
 ### Lokasi Root Proyek
 ```
-/home/abdullah/rtsp-backup
-├── data/                     # Folder untuk menyimpan file backup (mount point container)
-├── logs/                     # Folder untuk menyimpan file log
-│   ├── backup.log            # Log aktivitas backup
-│   ├── hdd_monitor.log       # Log monitor HDD
-├── scripts/                  # Folder berisi script utama
-│   ├── backup_manager.py     # Script untuk backup RTSP
-│   ├── entrypoint.sh         # Script untuk menjalankan container
-├── docker-compose.yml        # File untuk menjalankan aplikasi menggunakan Docker Compose
-├── Dockerfile                # File konfigurasi Docker
-├── .env                      # File konfigurasi lingkungan
+/home/abdullah/
+├── rtsp/                      # Folder untuk proyek RTSP backup
+│   ├── logs/                  # Folder log RTSP
+│   ├── scripts/               # Script utama backup RTSP
+│   ├── docker-compose.yml     # File docker-compose untuk RTSP
+│   ├── Dockerfile             # File Docker untuk RTSP
+│   ├── .env                   # Konfigurasi lingkungan RTSP
+│
+├── syslog/                    # Folder untuk proyek Syslog
+│   ├── logs/                  # Folder log Syslog
+│   ├── scripts/               # Script utama monitoring Syslog
+│   ├── docker-compose.yml     # File docker-compose untuk Syslog
+│   ├── Dockerfile             # File Docker untuk Syslog
+│   ├── .env  
 ```
 
 Konfigurasi
