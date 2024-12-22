@@ -38,11 +38,11 @@ TIMEZONE=Asia/Jakarta
 # TIMEZONE=Asia/Makassar
 
 # Detail Login untuk RTSP:
-RTSP_USERNAME=babahdigital          # Username untuk autentikasi RTSP
-RTSP_PASSWORD=Admin123@             # Password untuk autentikasi RTSP
+RTSP_USERNAME=username          # Username untuk autentikasi RTSP
+RTSP_PASSWORD=password             # Password untuk autentikasi RTSP
 
 # IP RTSP NVR atau DVR:
-RTSP_IP=172.16.10.252               # IP dari perangkat RTSP Anda
+RTSP_IP=192.168.1.1              # IP dari perangkat RTSP Anda
 
 # Jumlah channel RTSP yang ingin di-backup:
 CHANNELS=8                          # Contoh: 8 channel
